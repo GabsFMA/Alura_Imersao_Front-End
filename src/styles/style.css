@@ -1,6 +1,7 @@
+
+
 body{
     background-color: #090A05;
-    
 }
 
 .sidebar{
@@ -10,11 +11,6 @@ body{
     bottom: 0;
     padding: 12px;
     width: 300px;
-}
-
-.sidebar_navigation ul{
-    list-style: none;
-
 }
 
 .sidebar_navigation ul li{
@@ -167,6 +163,46 @@ body{
     border: 1px solid #878787;
     border-radius: 20px;
     color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+}
+
+.footer{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 40px;
+    background: linear-gradient(to right, #5d2a50, #7b3372, #6e3a86, #5c4b95, #6783ab);
+}
+
+.footer .footer-text{
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer .footer-text .footer-text_title{
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer .footer-text .footer-text_subtitle{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer .footer-button{
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+    color: #000;
     cursor: pointer;
     font-weight: bold;
     width: 170px;
