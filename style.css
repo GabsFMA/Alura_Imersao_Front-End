@@ -25,6 +25,7 @@ body{
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
+    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar_navigation{
@@ -47,4 +48,41 @@ body{
 
 .logo img{
     width: 80px;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.library .library_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.library_button{
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    flex-direction: row;
+}
+
+.library .library_button .fa{
+    font-size: 20px;
 }
