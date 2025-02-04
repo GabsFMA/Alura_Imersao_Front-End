@@ -2,6 +2,7 @@
 
 body{
     background-color: #090A05;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar{
