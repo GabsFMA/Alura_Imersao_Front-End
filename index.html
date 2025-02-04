@@ -7,7 +7,8 @@
     <link rel="script" href="script.js">
     <link rel="stylesheet" href="/src/styles/reset.css">
     <link rel="stylesheet" href="/src/styles/varrs.css">
-    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="stylesheet" href="/src/styles/main-content.css">
+    <link rel="stylesheet" href="/src/styles/sideBar&footer.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
 
@@ -64,7 +65,31 @@
         </div>
     </div>
     <main>
-
+        <div class="main-container">
+            <nav class="header_navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="/src/assets/icons/small-left.png" alt="">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="/src/assets/icons/small-right.png" alt="">
+                    </button>
+                </div>
+                    <div class="header_search">
+                        <img src="/src/assets/icons/search.png" alt="">
+                        <input 
+                            id="search-input" 
+                            type="text" 
+                            maxlength="800"
+                            placeholder="O que você quer ouvir?"
+                        />
+                    </div>
+                    <div class="header_login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+            </nav>
+        </div>
     </main>
     <footer class="footer">
         <div class="footer-text">
